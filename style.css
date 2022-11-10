@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.landing{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.landing .landingtext1{
+    position: relative;
+    max-width: 600px;
+    background-color: #222723;
+    height: 55vh;
+    width: 70%;
+    padding-top: 60px;
+    padding-left: 50px;
+    border-radius: 1px 250px 250px 10px;
+}
+.landing .landingtext1 h2 {
+    font-family: 'Saira Condensed', sans-serif;
+    color: #fff;
+    font-size: 3em;
+}
+.landing .landingtext1 h1{
+    color: orange;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;}
+.landing .landing_img1{
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
+    margin-right: 180px;
+}
+.landingbutton1{
+    background-color: orange;
+    color: #fff;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 25px;
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.1);
+}
+.landingbutton1:hover{
+    background-color: rgb(255, 186, 58);
+    transition: .5s ease-in-out;
+    color: #fff;
+}
+.thumb{
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.thumb li {
+    list-style: none;
+}
+.thumb img {
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+    transition: .5s;
+    cursor: pointer;
+}
+.thumb img:hover{
+    filter: drop-shadow(10px 10px 10px rgba(255,255,255,0.1));
+    transform: translateY(-20px);
+}
+.welcome{
+    margin-top: 25%;
+}
+.welcome_txt{
+    font-family: 'Saira Condensed', sans-serif;
+    background-color: #222723;
+    color: #fff;
+    padding-top: 10%;
+    padding-right: 10%;
+    height: 70vh;
+}
+.welcome_txt h2{
+    font-weight: 600;
+    padding-left: 50px;
+}
+.welcome_txt p{
+    font-size: 20px;
+    padding-left: 50px;
+}
+.welcome_txt button{
+    margin-left: 50px;
+}
+.services{
+    font-family: 'Saira Condensed', sans-serif;
+    
+}
