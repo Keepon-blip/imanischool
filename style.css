@@ -14,7 +14,7 @@
 .landing .landingtext1{
     position: relative;
     max-width: 600px;
-    background-color: #222723;
+    background-color: #0C2730;
     height: 55vh;
     width: 70%;
     padding-top: 60px;
@@ -27,7 +27,7 @@
     font-size: 3em;
 }
 .landing .landingtext1 h1{
-    color: orange;
+    color: #FFC64C;
     font-size: 4em;
     line-height: 1.4em;
     font-weight: 500;
@@ -37,7 +37,7 @@
     margin-right: 180px;
 }
 .landingbutton1{
-    background-color: orange;
+    background-color: #FFC64C;
     color: #fff;
     font-family: 'Saira Condensed', sans-serif;
     font-size: 25px;
@@ -92,8 +92,98 @@
 }
 .welcome_txt button{
     margin-left: 50px;
+    background-color: #FFC64C;
+    color: #0C2730;
 }
 .services{
     font-family: 'Saira Condensed', sans-serif;
-    
+}
+
+.services button:hover{
+    background-color: #FFC64C;
+}
+
+
+.book-drum-img{
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
+}
+.b-drum{
+    font-family: 'Saira Condensed', sans-serif;
+}
+.serv-intro{
+    font-family: 'Saira Condensed', sans-serif;
+    background: url(img/drumsbg.jpg);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: #fff;
+
+}
+.line{
+    width: 50px;
+    height: 3px;
+    background-color: #fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.serv-p-intro{
+    font-family: 'Saira Condensed', sans-serif;
+    background: url(img/pianobg.jpg);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+
+}
+.serv-g-intro{
+    font-family: 'Saira Condensed', sans-serif;
+    background: url(img/guitarbg.jpg);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.serv-s-intro{
+    font-family: 'Saira Condensed', sans-serif;
+    background: url(img/saxbg.jpg);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.serv-m-intro{
+    font-family: 'Saira Condensed', sans-serif;
+    background: url(img/musicbg.jpg);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.serv-dj-intro{
+    font-family: 'Saira Condensed', sans-serif;
+    background: url(img/djbg.jpg);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.b-img{
+    border-radius: 20px;
+}
+.b-img:hover{
+    width: 130px;
+    transition: .5s ease-out;
+}
+.b-img-dj{
+    border-radius: 20px;
+}
+.b-img-dj:hover{
+    width: 180px;
+    transition: .5s ease-out;
 }
