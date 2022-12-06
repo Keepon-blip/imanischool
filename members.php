@@ -16,25 +16,28 @@ $sql=mysqli_query($dbconnect,"SELECT * FROM bookings");
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Saira+Condensed:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">    
     <title>Admin | Imani School of music</title>
 </head>
 <body>
+
     <div class="top-nav">
         <h3>Admin | Imani School Of Music</h3>
     </div>
     <div class="row">
-        <div class="col-lg-2 side-nav" style="font-family: 'Saira Condensed', sans-serif;">
+        <div class="col-lg-2 side-nav" style="font-family: 'Roboto', sans-serif;">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Dashboard</a></li>
-                <li><a href="">Members</a></li>
-                <li><a href="">Bookings</a></li>
+                <li><a href="admin.php">Home</a></li>
+                <li><a href="admin.php">Dashboard</a></li>
+                <li><a href="contact.php">Messages</a></li>
+                <li><a href="members.php">Bookings</a></li>
             </ul>
         </div>
         <div class="col-lg-10 bg-light">
             <div class="container mt-2">
-                <table class="table bg-dark text-white rounded">
+                <table class="table table-dark table-hover table-striped rounded">
                     <thead>
                         <tr>
                             <th>No.</th>

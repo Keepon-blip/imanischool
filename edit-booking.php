@@ -38,10 +38,10 @@ require_once('logics/process-update.php');
     <div class="row">
         <div class="col-lg-2 side-nav" style="font-family: 'Saira Condensed', sans-serif;">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Dashboard</a></li>
-                <li><a href="">Members</a></li>
-                <li><a href="">Bookings</a></li>
+                <li><a href="admin.php">Home</a></li>
+                <li><a href="admin.php">Dashboard</a></li>
+                <li><a href="contact.php">Messages</a></li>
+                <li><a href="members.php">Bookings</a></li>
             </ul>
         </div>
         <div class="col-lg-10 bg-light">

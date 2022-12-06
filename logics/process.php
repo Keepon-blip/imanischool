@@ -7,7 +7,7 @@ if(isset($_POST['book_class']))
     $phonenumber = $_POST['phonenumber'];
     $email = $_POST['email'];
     $age = $_POST['age'];
-    $lesson = $_POST['date'];
+    $lesson = $_POST['lesson'];
     $date = $_POST['date'];
 
     $sql=mysqli_query($dbconnect, "INSERT INTO bookings(id,name,phonenumber,email,age,lesson,date)VALUES('','$name','$phonenumber','$email','$age','$lesson','$date')");
